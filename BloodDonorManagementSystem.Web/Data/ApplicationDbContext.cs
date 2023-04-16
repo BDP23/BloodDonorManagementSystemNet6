@@ -9,5 +9,7 @@ namespace BloodDonorManagementSystem.Web.Data
             : base(options)
         {
         }
+            public DbSet<BloodType> BloodTypes { get; set; }
+        public DbSet<BloodProductsAllocation> BloodProductsAllocations { get; set; }
     }
 }
